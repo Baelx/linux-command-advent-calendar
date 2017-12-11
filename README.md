@@ -1,5 +1,8 @@
-# linux-command-advent-calendar
-An advent calendar of Linux commands
+# Linux Command Advent Calendar
+
+An advent calendar of Linux commands for the keen Linux learner. Hosted on Github pages.
+
+## [Site](https://baelx.github.io/linux-command-advent-calendar/)
 
 Resources:
 
