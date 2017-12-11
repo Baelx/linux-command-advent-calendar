@@ -1,0 +1,18 @@
+DESIGN
+---
+-Take design cues from sites found on jekyllthemes.org
+-You basically want to copy the momentum extension in terms of design - main content dead center with links to about and social media/source on the right and left top corners respectively
+-You'll use the minima theme(already installed) and tweak its scss
+
+FUNCTIONALITY
+---
+-You'll eventually want to build in a search functionality with algolia
+
+BUILDING IT
+---
+-You'll want to find out how to create many posts quickly with a shell command
+-You can mine the data from the a-z guide with a python web scraper
+
+You may also want to find a different, non-posts method to pull in data for the commands. Currently you hae ~600 commands and 365 days in the year. 
+You also don't want them to be displayed randomly. You want them to be ordered randomly but appear in a set order.
+
