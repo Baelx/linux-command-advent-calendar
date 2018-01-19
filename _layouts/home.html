@@ -3,23 +3,22 @@ layout: default
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  {{ content }}
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
+    {% assign day_of_year = "now" | date: "%j" %}
+    {% for post in site.posts limit:1 offset:1%}
+      <div>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
+        <div>
+          <header class="post-header">
+            <h1 class="post-title">{{ post.title | escape }}</h1>
+          </header>
+          <p class="post-title">{{ post.content }}</p>
+        </div>
+      </div>
     {% endfor %}
-  </ul>
+  <!-- For Testing: --><p>Day of the year: {{day_of_year}}</p><!--End-->
+
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 

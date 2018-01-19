@@ -1,3 +1,7 @@
+BASIC USAGE
+---
+"jekyll serve" from the cli will spawn your dev env at localhost:4000/linux-command-advent-calendar
+
 DESIGN
 ---
 -Take design cues from sites found on jekyllthemes.org
@@ -8,7 +12,7 @@ FUNCTIONALITY
 ---
 -You'll eventually want to build in a search functionality with algolia
 
-BUILDING IT
+BUILD PROCESS
 ---
 -You'll want to find out how to create many posts quickly with a shell command
 -You can mine the data from the a-z guide with a python web scraper
