@@ -10,4 +10,6 @@ Resources:
 
 [A-Z linux commands from fossbytes](https://fossbytes.com/a-z-list-linux-command-line-reference/)
 
+[Linux in a nutshell commands list(~675 commands listed)](http://www.linuxdevcenter.com/cmd/cmd.csp?path=s/stty)
+
 [Algolia quick search functionality](https://github.com/algolia/algoliasearch-jekyll#installation)
