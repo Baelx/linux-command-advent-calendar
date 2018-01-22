@@ -4,10 +4,10 @@ layout: default
 
 <div class="home">
     {% assign day_of_year = "now" | date: "%j" %}
-    {% for post in site.posts limit:1 offset:1%}
+    {% for post in site.posts limit:1 offset:1 %}
       <div>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <span class="post-meta">{{ "now" | date: date_format }}</span>
 
         <div>
           <header class="post-header">
