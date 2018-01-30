@@ -112,7 +112,11 @@
 
 .footer-heading {
   @include relative-font-size(1.125);
-  margin-bottom: $spacing-unit / 2;
+  margin-bottom: 0;
+}
+.footer-heading > span {
+  color:black;
+  line-height:2;
 }
 
 .contact-list,
@@ -177,6 +181,8 @@
  */
 .page-content {
   padding: $spacing-unit 0;
+  display: flex;
+  justify-content: center;
 }
 
 .page-heading {
@@ -211,8 +217,6 @@
  */
 .post-header {
   margin-bottom: $spacing-unit;
-  display: flex;
-  justify-content: center;
 }
 
 .post-title {
@@ -222,9 +226,9 @@
   border-right: .5em solid black;
   white-space: nowrap;
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; 
+  letter-spacing: .15em;
   line-height: normal;
-  animation: typing 3.5s steps(40, end), blink-caret 1.25s step-end infinite;
+  animation: typing 3.5s steps(50, end), blink-caret 1.25s step-end infinite;
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
