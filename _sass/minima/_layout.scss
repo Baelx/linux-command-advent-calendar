@@ -2,8 +2,7 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+  box-shadow: 0 2px 5px rgba(0,0,0,.26);
   min-height: $spacing-unit * 1.865;
   background-color: $teal-color;
   // Positioning context for the mobile navigation icon
@@ -12,11 +11,12 @@
 
 .site-title {
   @include relative-font-size(1.625);
+  font: 26px "Monaco";
   font-weight: 300;
-  line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
-  float: left;
+  display:block;
+  padding-top: 11px;
 
   &,
   &:visited {
@@ -25,12 +25,19 @@
 }
 
 .site-logo {
-  max-width:30%;
+  max-width:22%;
+  float:left;
+  padding-right:6px;
+}
+
+.site-header-left {
+  width: 29%;
+  float:left;
 }
 
 .site-nav {
   float: right;
-  line-height: $base-line-height * $base-font-size * 2.25;
+  margin: 2% 0%;
 
   .nav-trigger {
       display: none;
@@ -203,8 +210,8 @@
 }
 
 .post-meta {
-  font-size: $small-font-size;
-  color: $grey-color;
+  font-size: $base-font-size;
+  color: $teal-color;
   display: block;
   text-align: center;
 }

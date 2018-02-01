@@ -14,6 +14,7 @@ FUNCTIONALITY
 ---
 -You'll eventually want to build in a search functionality with Algolia.
 -Consider building an accompanying API of all the linux commands used. The API would include a way to output the linux command of the day.
+-Consider having an email service that users can subscribe to to get the day's command
 
 BUILD PROCESS
 ---
