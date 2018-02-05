@@ -3,10 +3,7 @@
   <div class="wrapper">
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
-    <div class="site-header-left">
-      <img class="site-logo" src="assets/calendar.jpg" alt="Linux Command Advent Calednar">
-      <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-    </div>
+      <a class="site-title" href="{{ "/" | relative_url }}"><img class="site-logo" src="assets/logo.jpeg" alt="Linux Command Advent Calednar"></a>
 
     {% if page_paths %}
       <nav class="site-nav">

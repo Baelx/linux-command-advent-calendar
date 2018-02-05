@@ -15,8 +15,8 @@
   font-weight: 300;
   letter-spacing: -1px;
   margin-bottom: 0;
-  display:block;
-  padding-top: 11px;
+  display: block;
+  max-width: 24%;
 
   &,
   &:visited {
@@ -25,9 +25,7 @@
 }
 
 .site-logo {
-  max-width:22%;
   float:left;
-  padding-right:6px;
 }
 
 .site-header-left {
