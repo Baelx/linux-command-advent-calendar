@@ -1,6 +1,6 @@
-# GNU/Linux Command Advent Calendar
+# GNU/Linux "Command a day" calendar
 
-An advent calendar of GNU Linux commands for the keen Linux learner. Hosted on Github pages.
+A calendar of GNU Linux commands for the keen Linux learner. Hosted on Github pages.
 
 ## [Site](https://baelx.github.io/linux-command-advent-calendar/)
 
@@ -15,5 +15,7 @@ Resources:
 [A-Z linux commands from fossbytes](https://fossbytes.com/a-z-list-linux-command-line-reference/)
 
 [Linux in a nutshell commands list(~675 commands listed)](http://www.linuxdevcenter.com/cmd/cmd.csp?path=s/stty)
+
+For implementing a search functinality 
 
 [Algolia quick search functionality](https://github.com/algolia/algoliasearch-jekyll#installation)
